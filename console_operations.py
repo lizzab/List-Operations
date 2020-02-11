@@ -17,3 +17,7 @@ print(f"This is your list after being sorted: {numbers}")
 print(f"The sum of your list is: {list_operations.sum_list(numbers)}")
 
 print(f"This is the product of your list: {list_operations.product_list(numbers)}")
+
+print(f"This is the average: {list_operations.mean_list(numbers)}")
+
+print(f"This is the median of your list:{numbers[2]}")

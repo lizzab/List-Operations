@@ -17,4 +17,8 @@ def product_list(numbers):
     return num
 
 
-def
+def mean_list(numbers):
+    return sum(numbers) / len(numbers)
+
+
+# def
