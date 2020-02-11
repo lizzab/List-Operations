@@ -21,4 +21,3 @@ def mean_list(numbers):
     return sum(numbers) / len(numbers)
 
 
-# def
