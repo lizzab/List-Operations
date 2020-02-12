@@ -28,5 +28,15 @@ def mode(numbers):
         return max(set(numbers), key=numbers.count)
 
 
+def even_list(numbers):
+    for num in numbers:
+        if num % 2 == 0:
+            print(num, end=' ')
+
+
+def odd_list(numbers):
+    for num in numbers:
+        if num % 2 != 0:
+            print(num, end=' ')
 
 

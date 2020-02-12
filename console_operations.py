@@ -25,3 +25,23 @@ print(f"\nThis is the median of your list: {numbers[2]}")
 
 print(f"\nThis is the mode of the list: {list_operations.mode(numbers)}")
 
+print(f"\nThe largest number is: {numbers[-1]}")
+
+print(f"\nThe smallest number is: {numbers[0]}")
+
+numbers = list(set(numbers))
+print(f"\nThis is your list without any duplicates: {numbers}")
+
+print("\nThis is your list after even numbers were removed:")
+print(list_operations.odd_list(numbers))
+
+print("\nThis is your list after odd numbers were removed:")
+print(list_operations.even_list(numbers))
+
+
+one_more = input("\nType one more number!")
+print(one_more)
+if one_more in numbers:
+    print("Your number is in the list!")
+else:
+    print("Your number is not in the list :(")
