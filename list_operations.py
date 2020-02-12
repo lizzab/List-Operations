@@ -21,3 +21,12 @@ def mean_list(numbers):
     return sum(numbers) / len(numbers)
 
 
+def mode(numbers):
+    if numbers == []:
+        return None
+    else:
+        return max(set(numbers), key=numbers.count)
+
+
+
+
