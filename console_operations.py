@@ -33,10 +33,10 @@ numbers = list(set(numbers))
 print(f"\nThis is your list without any duplicates: {numbers}")
 
 print("\nThis is your list after even numbers were removed:")
-print(list_operations.odd_list(numbers))
+list_operations.odd_list(numbers)
 
 print("\nThis is your list after odd numbers were removed:")
-print(list_operations.even_list(numbers))
+list_operations.even_list(numbers)
 
 
 one_more = input("\nType one more number!")
@@ -45,3 +45,6 @@ if one_more in numbers:
     print("Your number is in the list!")
 else:
     print("Your number is not in the list :(")
+
+# BONUS
+print(f"\nThis is the SECOND largest number in your list: {numbers[3]}")
